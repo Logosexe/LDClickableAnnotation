@@ -6,11 +6,13 @@ Clickable Annotation view for iOS MapKit
 SETUP
 =====
 
+you can copy pase to see if it works
+
 in your .h file with map
 
- #import "LDAnnotationClickable.h"
- #import "LDAnnotationView.h"
- @interface ViewController : UIViewController<MKMapViewDelegate, LDAnnotationClickableDelegate>
+	#import "LDAnnotationClickable.h"
+	#import "LDAnnotationView.h"
+	@interface ViewController : UIViewController<MKMapViewDelegate, LDAnnotationClickableDelegate>
 
 in .m file 
 
@@ -45,3 +47,19 @@ in .m file
 		[self performSegueWithIdentifier:@"ViewPinDetailSegue" sender:pin];
 		[[LDAnnotationClickable instance] dismiss];
 	}
+
+
+Optionaly you can add
+
+	[[LDAnnotationClickable instance] setDebug:YES];
+to see red area of clickable view.
+
+And ofcourse it will be good for pins to be LDAnnotationView :D
+
+	LDAnnotationView *pin = [[LDAnnotationView alloc] init];
+	[pin setCoordinate:CLLocationCoordinate2DMake(lat, lng)];
+	pin.title = @"title";
+	pin.subtitle = @"subtitle";
+	pin.canShowCallout = YES;
+	[self.mapView  addAnnotation:pin];
+
