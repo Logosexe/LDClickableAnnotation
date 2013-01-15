@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19830EDA16A0A80C00872EF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19830ED916A0A80C00872EF6 /* UIKit.framework */; };
+		19830EDC16A0A80C00872EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19830EDB16A0A80C00872EF6 /* Foundation.framework */; };
+		19830EDE16A0A80C00872EF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19830EDD16A0A80C00872EF6 /* CoreGraphics.framework */; };
+		19830EEA16A0A80C00872EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19830EE916A0A80C00872EF6 /* AppDelegate.m */; };
+		19830F0016A0A8B200872EF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19830EFD16A0A8B200872EF6 /* Default-568h@2x.png */; };
+		19830F0116A0A8B200872EF6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 19830EFE16A0A8B200872EF6 /* Default.png */; };
+		19830F0216A0A8B200872EF6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19830EFF16A0A8B200872EF6 /* Default@2x.png */; };
+		19830F0616A0A8B800872EF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19830F0516A0A8B800872EF6 /* ViewController.m */; };
+		19830F0C16A0A8BE00872EF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19830F0816A0A8BE00872EF6 /* InfoPlist.strings */; };
+		19830F0D16A0A8BE00872EF6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19830F0A16A0A8BE00872EF6 /* MainStoryboard.storyboard */; };
+		19830F1016A0A91300872EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19830F0F16A0A91300872EF6 /* main.m */; };
+		19830F1216A0A95C00872EF6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19830F1116A0A95C00872EF6 /* MapKit.framework */; };
+		19830F1A16A0AD1E00872EF6 /* LDAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19830F1916A0AD1E00872EF6 /* LDAnnotationView.m */; };
+		19830F1C16A0ADC300872EF6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19830F1B16A0ADC300872EF6 /* CoreLocation.framework */; };
+		19830F1F16A317F100872EF6 /* PinDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19830F1E16A317F100872EF6 /* PinDetailViewController.m */; };
+		19830F2216A31A8B00872EF6 /* LDAnnotationClickable.m in Sources */ = {isa = PBXBuildFile; fileRef = 19830F2116A31A8B00872EF6 /* LDAnnotationClickable.m */; };
+		19830F2416A3430600872EF6 /* LDPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 19830F2316A3430600872EF6 /* LDPin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19830ED516A0A80C00872EF6 /* LDClickableAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDClickableAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19830ED916A0A80C00872EF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19830EDB16A0A80C00872EF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19830EDD16A0A80C00872EF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19830EE816A0A80C00872EF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19830EE916A0A80C00872EF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19830EFD16A0A8B200872EF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		19830EFE16A0A8B200872EF6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		19830EFF16A0A8B200872EF6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		19830F0416A0A8B800872EF6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19830F0516A0A8B800872EF6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19830F0916A0A8BE00872EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		19830F0B16A0A8BE00872EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		19830F0F16A0A91300872EF6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19830F1116A0A95C00872EF6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		19830F1816A0AD1E00872EF6 /* LDAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDAnnotationView.h; sourceTree = "<group>"; };
+		19830F1916A0AD1E00872EF6 /* LDAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAnnotationView.m; sourceTree = "<group>"; };
+		19830F1B16A0ADC300872EF6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		19830F1D16A317F100872EF6 /* PinDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinDetailViewController.h; sourceTree = "<group>"; };
+		19830F1E16A317F100872EF6 /* PinDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinDetailViewController.m; sourceTree = "<group>"; };
+		19830F2016A31A8B00872EF6 /* LDAnnotationClickable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDAnnotationClickable.h; sourceTree = "<group>"; };
+		19830F2116A31A8B00872EF6 /* LDAnnotationClickable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAnnotationClickable.m; sourceTree = "<group>"; };
+		19830F2316A3430600872EF6 /* LDPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LDPin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19830ED216A0A80C00872EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19830F1C16A0ADC300872EF6 /* CoreLocation.framework in Frameworks */,
+				19830F1216A0A95C00872EF6 /* MapKit.framework in Frameworks */,
+				19830EDA16A0A80C00872EF6 /* UIKit.framework in Frameworks */,
+				19830EDC16A0A80C00872EF6 /* Foundation.framework in Frameworks */,
+				19830EDE16A0A80C00872EF6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19830ECA16A0A80C00872EF6 = {
+			isa = PBXGroup;
+			children = (
+				19830EDF16A0A80C00872EF6 /* LDClickableAnnotation */,
+				19830ED816A0A80C00872EF6 /* Frameworks */,
+				19830ED616A0A80C00872EF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19830ED616A0A80C00872EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19830ED516A0A80C00872EF6 /* LDClickableAnnotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19830ED816A0A80C00872EF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19830F1B16A0ADC300872EF6 /* CoreLocation.framework */,
+				19830F1116A0A95C00872EF6 /* MapKit.framework */,
+				19830ED916A0A80C00872EF6 /* UIKit.framework */,
+				19830EDB16A0A80C00872EF6 /* Foundation.framework */,
+				19830EDD16A0A80C00872EF6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19830EDF16A0A80C00872EF6 /* LDClickableAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				19830F1716A0AD1100872EF6 /* Views */,
+				19830EE816A0A80C00872EF6 /* AppDelegate.h */,
+				19830EE916A0A80C00872EF6 /* AppDelegate.m */,
+				19830F0316A0A8B800872EF6 /* Controllers */,
+				19830F0716A0A8BE00872EF6 /* en.lproj */,
+				19830EFC16A0A8B200872EF6 /* Resources */,
+				19830F0E16A0A8C200872EF6 /* Supporting Files */,
+			);
+			path = LDClickableAnnotation;
+			sourceTree = "<group>";
+		};
+		19830EFC16A0A8B200872EF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19830F2316A3430600872EF6 /* LDPin.png */,
+				19830EFD16A0A8B200872EF6 /* Default-568h@2x.png */,
+				19830EFE16A0A8B200872EF6 /* Default.png */,
+				19830EFF16A0A8B200872EF6 /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		19830F0316A0A8B800872EF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19830F0416A0A8B800872EF6 /* ViewController.h */,
+				19830F0516A0A8B800872EF6 /* ViewController.m */,
+				19830F1D16A317F100872EF6 /* PinDetailViewController.h */,
+				19830F1E16A317F100872EF6 /* PinDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		19830F0716A0A8BE00872EF6 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				19830F0816A0A8BE00872EF6 /* InfoPlist.strings */,
+				19830F0A16A0A8BE00872EF6 /* MainStoryboard.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		19830F0E16A0A8C200872EF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19830F0F16A0A91300872EF6 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19830F1716A0AD1100872EF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19830F1816A0AD1E00872EF6 /* LDAnnotationView.h */,
+				19830F1916A0AD1E00872EF6 /* LDAnnotationView.m */,
+				19830F2016A31A8B00872EF6 /* LDAnnotationClickable.h */,
+				19830F2116A31A8B00872EF6 /* LDAnnotationClickable.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19830ED416A0A80C00872EF6 /* LDClickableAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19830EF916A0A80C00872EF6 /* Build configuration list for PBXNativeTarget "LDClickableAnnotation" */;
+			buildPhases = (
+				19830ED116A0A80C00872EF6 /* Sources */,
+				19830ED216A0A80C00872EF6 /* Frameworks */,
+				19830ED316A0A80C00872EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDClickableAnnotation;
+			productName = LDClickableAnnotation;
+			productReference = 19830ED516A0A80C00872EF6 /* LDClickableAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19830ECC16A0A80C00872EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tomek Janik";
+			};
+			buildConfigurationList = 19830ECF16A0A80C00872EF6 /* Build configuration list for PBXProject "LDClickableAnnotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19830ECA16A0A80C00872EF6;
+			productRefGroup = 19830ED616A0A80C00872EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19830ED416A0A80C00872EF6 /* LDClickableAnnotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19830ED316A0A80C00872EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19830F0016A0A8B200872EF6 /* Default-568h@2x.png in Resources */,
+				19830F0116A0A8B200872EF6 /* Default.png in Resources */,
+				19830F0216A0A8B200872EF6 /* Default@2x.png in Resources */,
+				19830F0C16A0A8BE00872EF6 /* InfoPlist.strings in Resources */,
+				19830F0D16A0A8BE00872EF6 /* MainStoryboard.storyboard in Resources */,
+				19830F2416A3430600872EF6 /* LDPin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19830ED116A0A80C00872EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19830EEA16A0A80C00872EF6 /* AppDelegate.m in Sources */,
+				19830F0616A0A8B800872EF6 /* ViewController.m in Sources */,
+				19830F1016A0A91300872EF6 /* main.m in Sources */,
+				19830F1A16A0AD1E00872EF6 /* LDAnnotationView.m in Sources */,
+				19830F1F16A317F100872EF6 /* PinDetailViewController.m in Sources */,
+				19830F2216A31A8B00872EF6 /* LDAnnotationClickable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19830F0816A0A8BE00872EF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19830F0916A0A8BE00872EF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19830F0A16A0A8BE00872EF6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19830F0B16A0A8BE00872EF6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19830EF716A0A80C00872EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19830EF816A0A80C00872EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19830EFA16A0A80C00872EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDClickableAnnotation/LDClickableAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "LDClickableAnnotation/LDClickableAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19830EFB16A0A80C00872EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LDClickableAnnotation/LDClickableAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "LDClickableAnnotation/LDClickableAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19830ECF16A0A80C00872EF6 /* Build configuration list for PBXProject "LDClickableAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19830EF716A0A80C00872EF6 /* Debug */,
+				19830EF816A0A80C00872EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19830EF916A0A80C00872EF6 /* Build configuration list for PBXNativeTarget "LDClickableAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19830EFA16A0A80C00872EF6 /* Debug */,
+				19830EFB16A0A80C00872EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19830ECC16A0A80C00872EF6 /* Project object */;
+}
