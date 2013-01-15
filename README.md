@@ -43,9 +43,6 @@ in .m file
 	-(void)pinSelected:(MKAnnotationView *)pin{
 		/* do segue or whatever you need to dismiss clickable view, and recover it on view will appear*/
 		NSLog(@"CLICKED : %@", ((LDAnnotationView*)pin.annotation).title);
-		
-		[self performSegueWithIdentifier:@"ViewPinDetailSegue" sender:pin];
-		[[LDAnnotationClickable instance] dismiss];
 	}
 
 
